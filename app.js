@@ -24,6 +24,8 @@ const reviewRouter = require('./routes/reviewRoutes');
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
+console.log(process.env);
+
 // !Global Middlewares
 
 app.use(
