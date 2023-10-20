@@ -21,7 +21,7 @@ const productRouter = require('./routes/productRoutes');
 const path = require('path');
 const reviewRouter = require('./routes/reviewRoutes');
 
-app.set('view engine', 'pug');
+// app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 
 // !Global Middlewares
