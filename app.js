@@ -28,7 +28,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use(
   cors({
-    origin: ['https://tradehub-server.onrender.com'],
+    origin: true,
     methods: ['POST', 'PATCH', 'GET', 'DELETE', 'PUT'],
     credentials: true,
   })
